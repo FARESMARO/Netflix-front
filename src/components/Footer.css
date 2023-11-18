@@ -1,0 +1,32 @@
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
